@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Siercks.org</title>
     <base href="/" />
+    <script>
+        function toggleColors() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     <style>
         @media {
             body {
                 background-color: #8C1D40;
                 color: antiquewhite;
+            }
+            .dark-mode {
+                background-color: #0f0e17;
+                color: #ff8906;
             }
 
             a:link, a:visited, a:hover {
@@ -32,7 +42,7 @@
     <center>
         <div style="width: 400px; font-family:Garamond; font-size:14px;">
             <div>
-                <img src="IMG-6661alt.png" style="object-fit:scale-down; border-radius: 25%; width: 55%;" title="A picture of me at Arizona State's Veteran Convocation Ceremony (May 2022)" />
+                <button onclick="toggleColors()"><img src="IMG-6661alt.png" style="object-fit:scale-down; border-radius: 25%; width: 55%;" title="A picture of me at Arizona State's Veteran Convocation Ceremony (May 2022)" /></button>
             </div><br /><div style="place-content:center">
                 <a href="https://www.github.com/siercks">GitHub</a> |
                 <a href="mailto:andrew@siercks.org">Email Me</a> |
