@@ -1,0 +1,24 @@
+{
+  "name": "siercks.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website.",
+  "main": "app.js",
+  "scripts": {
+    "build": "tailwindcss -i ./site.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./site.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siercks/siercks.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siercks/siercks.github.io/issues"
+  },
+  "homepage": "https://github.com/siercks/siercks.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
